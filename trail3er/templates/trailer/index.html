@@ -1,0 +1,12 @@
+{% extends "layouts/default.html" %}
+
+{% block body %}
+  <ul class="thumbnails">
+  {% for trailer in trailers %}
+    <li class="span2">
+       <img class="thumbnail" src="/static/uploads/{{ trailer.box_image }}" title="{{ trailer.movie_title }}" style="height: 200px" />
+    </li>
+  {% endfor %}
+  </ul>  
+{% endblock %}
+

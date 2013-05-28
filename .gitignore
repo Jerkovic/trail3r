@@ -1,0 +1,6 @@
+*.pyc
+.project
+.pydevproject
+.settings
+trail3er/static/uploads/*.*
+env

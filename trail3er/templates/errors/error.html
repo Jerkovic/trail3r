@@ -1,0 +1,11 @@
+{% extends "layouts/default.html" %}
+
+{% block body %}
+	<div class="hero-unit center">
+		<h1>{% block error_title %}{% endblock %} <small><font face="Tahoma" color="red">Error {% block error_code %}{% endblock %}</font></small></h1>
+		<br />
+		<p>{% block error_text %}{% endblock %}</p>
+		<a href="/" class="btn btn-large btn-info"><i class="icon-home icon-white"></i> Take Me Home</a>
+	</div>		
+{% endblock %}
+
